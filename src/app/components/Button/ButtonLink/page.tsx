@@ -15,7 +15,7 @@ interface ButtonLinkProps {
 const ButtonLink = ({
   label,
   link,
-  className,
+  className = '',
   icon,
 } : ButtonLinkProps) => {
 
