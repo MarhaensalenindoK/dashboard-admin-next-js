@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import FontAwesomeIcon from "@/app/components/FontAwesome/page";
+import FontAwesomeIcon from "@/app/components/FontAwesome/fontAwesome";
 import Image from "next/image";
 
 interface UserCardProps {

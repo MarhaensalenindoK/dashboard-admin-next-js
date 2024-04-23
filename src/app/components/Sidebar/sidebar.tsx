@@ -1,8 +1,7 @@
 'use client'
 import React, { useState } from 'react'
-import ButtonLink from '@/app/components/Button/ButtonLink/page';
-import FontAwesomeIcon from "@/app/components/FontAwesome/page";
-import { transform } from 'next/dist/build/swc';
+import ButtonLink from '@/app/components/Button/ButtonLink/button';
+import FontAwesomeIcon from "@/app/components/FontAwesome/fontAwesome";
 
 const Sidebar = () => {
     const mainSidebar = [

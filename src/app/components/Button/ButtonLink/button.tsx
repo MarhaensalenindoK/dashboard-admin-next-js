@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import React from "react";
-import FontAwesomeIcon from "@/app/components/FontAwesome/page";
+import FontAwesomeIcon from "@/app/components/FontAwesome/fontAwesome";
 import { usePathname } from "next/navigation";
 
 interface ButtonLinkProps {
   label?: string;
-  link: string;  // Assuming link should be a string URL
+  link: string;
   className?: string;
-  icon?: string;  // If icon is a string representing icon names
+  icon?: string;
 }
 
 const ButtonLink = ({

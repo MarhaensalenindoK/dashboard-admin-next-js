@@ -5,7 +5,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css'; 
 
 library.add(fas);
-library.autoAddCss = false;
 
-const FontAwesomeIcon = (props) => <FAIcon {...props} />;
+const FontAwesomeIcon = (props:any) => <FAIcon {...props} />;
 export default FontAwesomeIcon;

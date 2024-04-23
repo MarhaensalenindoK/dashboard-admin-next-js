@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ShortInformation from "@/app/components/Card/ShortInformation/page"
-import BarChart from "@/app/components/Chart/Bar/page"
-import UserCard from "@/app/components/Card/User/page"
+import ShortInformation from "@/app/components/Card/ShortInformation/card"
+import BarChart from "@/app/components/Chart/Bar/bar"
+import UserCard from "@/app/components/Card/User/card"
 
 export default function Home() {
   return (
