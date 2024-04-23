@@ -11,12 +11,12 @@ interface ShortInformationProps {
     className?: string
 }
 
-const ShortInformation: React.FC<ShortInformationProps> = ({
+const ShortInformation = ({
     title,
     subTitle,
     href,
     className = ''
-}) => {
+} : ShortInformationProps) => {
 
     return (
         <>

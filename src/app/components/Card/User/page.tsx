@@ -12,12 +12,12 @@ interface UserCardProps {
     className?: string
 }
 
-const UserCard: React.FC<UserCardProps> = ({
+const UserCard = ({
     photo,
     name,
     username,
     className
-}) => {
+} : UserCardProps) => {
     const iconUser = <FontAwesomeIcon icon={['fas', 'user']} size="2xl" />
 
     return (

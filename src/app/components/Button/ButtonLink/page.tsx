@@ -12,12 +12,12 @@ interface ButtonLinkProps {
   icon?: string;  // If icon is a string representing icon names
 }
 
-const ButtonLink: React.FC<ButtonLinkProps> = ({
+const ButtonLink = ({
   label,
   link,
   className,
   icon,
-}) => {
+} : ButtonLinkProps) => {
 
   const pathname = usePathname();
 
