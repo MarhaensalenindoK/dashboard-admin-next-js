@@ -7,10 +7,9 @@ import { usePathname } from "next/navigation";
 
 interface ButtonLinkProps {
   label?: string;
-  link: any;
-  className?: any;
-  icon?: any;
-  iconOnly?: any;
+  link: string;  // Assuming link should be a string URL
+  className?: string;
+  icon?: string;  // If icon is a string representing icon names
 }
 
 const ButtonLink: React.FC<ButtonLinkProps> = ({
